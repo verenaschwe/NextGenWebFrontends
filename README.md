@@ -1,9 +1,35 @@
 # NextGenWebFrontends
 ## [1] Solo Assignment 1 
 ### Vite-Projekt mit Template vue-ts aufsetzen
-#### Stufe B — Standard
-- eine komponentenbasierte Todo-App
-- Drei Komponenten: TodoApp.vue (State + Logik), TodoList.vue (Liste rendern), TodoItem.vue (einzelnes Todo mit Checkbox)
-- props kommunizieren nach unten (Todos an die Liste, ein Todo an das Item), emit nach oben (Toggle/Löschen)
-- Eigenes TypeScript-Interface Todo (z. B. id , text , done )
-- Filter-Buttons: Alle / Offen / Erledigt
+#### Vue Counter
+
+Eine einfache Counter-Anwendung mit Vue 3, TypeScript und Vite.
+
+##### Setup
+
+###### Repository klonen:
+git clone https://github.com/verenaschwe/NextGenWebFrontends.git
+
+###### In den Projektordner wechseln:
+cd Projektordner
+
+###### Abhängigkeiten installieren:
+npm install
+
+###### Entwicklungsserver starten:
+npm run dev
+
+##### Projekt
+
+Danach kann die Anwendung über die angezeigte lokale Adresse im Browser geöffnet werden.
+
+###### Funktionen
+- Zähler startet bei 0
+- Zähler erhöhen
+- Zähler verringern
+- Anzeige des doppelten Zählerstands mit computed()
+
+###### Technologien
+- Vue 3
+- TypeScript
+- Vite
