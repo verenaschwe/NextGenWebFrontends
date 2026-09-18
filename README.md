@@ -1,7 +1,11 @@
 # NextGenWebFrontends
 ## [1] Solo Assignment 1 
 ### Vite-Projekt mit Template vue-ts aufsetzen
-#### Stufe A — Basis
-Counter-Komponente: Start bei 0, Buttons zum Hoch-/Runterzählen
-Zählerstand als ref() , ein abgeleiteter Wert (z. B. „doppelt so viel") als
-computed()
+#### Stufe B — Standard
+eine komponentenbasierte Todo-App
+Drei Komponenten: TodoApp.vue (State + Logik), TodoList.vue (Liste
+rendern), TodoItem.vue (einzelnes Todo mit Checkbox)
+props kommunizieren nach unten (Todos an die Liste, ein Todo an das Item),
+emit nach oben (Toggle/Löschen)
+Eigenes TypeScript-Interface Todo (z. B. id , text , done )
+Filter-Buttons: Alle / Offen / Erledigt
