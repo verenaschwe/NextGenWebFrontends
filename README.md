@@ -2,10 +2,8 @@
 ## [1] Solo Assignment 1 
 ### Vite-Projekt mit Template vue-ts aufsetzen
 #### Stufe B — Standard
-eine komponentenbasierte Todo-App
-Drei Komponenten: TodoApp.vue (State + Logik), TodoList.vue (Liste
-rendern), TodoItem.vue (einzelnes Todo mit Checkbox)
-props kommunizieren nach unten (Todos an die Liste, ein Todo an das Item),
-emit nach oben (Toggle/Löschen)
-Eigenes TypeScript-Interface Todo (z. B. id , text , done )
-Filter-Buttons: Alle / Offen / Erledigt
+- eine komponentenbasierte Todo-App
+- Drei Komponenten: TodoApp.vue (State + Logik), TodoList.vue (Liste rendern), TodoItem.vue (einzelnes Todo mit Checkbox)
+- props kommunizieren nach unten (Todos an die Liste, ein Todo an das Item), emit nach oben (Toggle/Löschen)
+- Eigenes TypeScript-Interface Todo (z. B. id , text , done )
+- Filter-Buttons: Alle / Offen / Erledigt
